@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Benchmarks
 
-Things you may want to cover:
+* active_model_serializers:
+0.237659   0.000321   0.237980 (  0.238205)
+0.235232   0.002118   0.237350 (  0.237981)
+0.234806   0.000868   0.235674 (  0.236065)
 
-* Ruby version
+* fast_josnapi:
+0.128557   0.000903   0.129460 (  0.129604)
+0.117662   0.000287   0.117949 (  0.118375)
+0.125125   0.000490   0.125615 (  0.125962)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Serializer pattern:
+0.051529   0.000242   0.051771 (  0.052100)
+0.051385   0.000307   0.051692 (  0.051993)
+0.054469   0.000582   0.055051 (  0.055528)
